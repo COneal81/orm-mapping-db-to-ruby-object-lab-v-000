@@ -70,7 +70,7 @@ class Student
   end
   
   
-  def self.first_x_student_in_grade_10
+  def self.first_X_student_in_grade_10
     sql = <<-SQL 
       SELECT * FROM students
       WHERE name = "X" AND grade = 10 
